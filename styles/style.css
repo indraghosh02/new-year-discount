@@ -1,0 +1,30 @@
+header{
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: off;
+    background-color: gray;
+    background-blend-mode: multiply;
+    border-radius: 16px; 
+    
+
+    width: 1320px;  
+    height: 600px;
+    margin:30px  100px;
+}
+.banner{
+    padding: 100px 344px 177px;
+}
+.banner-content-1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    
+    
+}
+.banner-content-2{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+;
+
+
+}
