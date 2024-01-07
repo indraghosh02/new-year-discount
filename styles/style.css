@@ -24,13 +24,12 @@ header{
 text-align: center;
 font-family: Merriweather;
 margin-top: 14px;
-padding-bottom: 80px;
 }
 .holiday-deals{
     text-align: center; 
     margin-top: 100px;
     width: 1500px;
-    height: 7335px; 
+    margin-bottom: 100px;
    
     
 }
@@ -66,7 +65,64 @@ padding-bottom: 80px;
 }
 .new-year-img{
     width: 802.9px;
-    height: 500px;
-    flex-shrink: 0; 
+    margin-bottom: 0px;
+     
  
+}
+main > section {
+    background-image: url(../images/Vectorrr.png);
+    margin-top: px;
+    width: 1320px;
+    height: 600px;
+    margin:30px  120px;
+    background-color: rgb(64, 62, 62);
+    background-blend-mode: multiply;
+    border-radius: 16PX;
+}
+.midnight-party{
+    
+}
+.party{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px; 
+padding: 126px 552px 10px 126px;
+margin-bottom: 0PX;
+}
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    width: 750px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 552px 10px 126px;
+}
+.btn-1{
+  background-color: transparent;
+  color: #FFF;
+text-align: center;
+font-family: Merriweather ;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+padding-left: 126PX;
+
+
+}
+.img-2024{
+    display: flex;
+width: 319.83px;
+height: 464.662px;
+padding: 0.008px 0px 0px 0px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: right;
+flex-shrink: 0;
+mix-blend-mode: screen; 
 }
