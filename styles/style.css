@@ -69,17 +69,15 @@ margin-top: 14px;
      
  
 }
-main > section {
+.midnight-party{
     background-image: url(../images/Vectorrr.png);
-    margin-top: px;
     width: 1320px;
     height: 600px;
-    margin:30px  120px;
+    margin:30px 120px;
     background-color: rgb(64, 62, 62);
     background-blend-mode: multiply;
     border-radius: 16PX;
-}
-.midnight-party{
+    margin-bottom: 0px;
     
 }
 .party{
@@ -107,11 +105,11 @@ margin-bottom: 0PX;
   background-color: transparent;
   color: #FFF;
 text-align: center;
-font-family: Merriweather ;
-font-size: 20px;
+font-family: Merriweather ;font-size: 20px;
 font-style: normal;
 font-weight: 700;
 padding-left: 126PX;
+
 
 
 }
@@ -125,4 +123,111 @@ justify-content: flex-end;
 align-items: right;
 flex-shrink: 0;
 mix-blend-mode: screen; 
+}
+ 
+/*.park{
+    height: 482px;
+    width: 1320px;
+    background: #F00;
+    
+}*/
+.portfolio{
+    margin:50px  100px;
+
+    height: 1180px;
+    width: 1320px;  
+
+
+   }
+   .gift{
+    color: #F00;
+font-family: Merriweather;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0px; 
+   }
+   .tag{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize; 
+margin-top: 20px;
+margin-bottom: 0px;
+   }
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 750px;
+margin-top: 20px;
+margin-bottom: 0px;
+}
+
+
+.image-portfolio{
+    margin-top: 20px;
+    width: 424px;
+    height: 450px;
+    color: #FFF;
+    display: block;
+    border-radius: 16px;
+    text-align: center;
+
+}
+.img-row-1{
+    display: flex;
+}
+.img-row-2{
+    display: flex;
+}
+.newsletter{
+    width: 1320px;
+height: 616px;
+flex-shrink: 0; 
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin: 30px  100px ;
+}
+.email-img{
+    width: 150px;
+height: 150px;
+flex-shrink: 0; 
+padding: 80px 585px 0px;
+}
+.subscribe{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize; 
+padding: 0px 270px;
+}
+.email-des{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+padding: 0px 212px;
+}
+.input{
+    width: 648px;
+height: 72px;
+flex-shrink: 0; 
+border-radius: 50px;
+background: #FFF;
+padding left: 336px;
 }
