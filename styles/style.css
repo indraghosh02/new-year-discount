@@ -195,6 +195,7 @@ flex-shrink: 0;
 border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
 margin: 30px  100px ;
+margin-bottom: 0px;
 }
 .email-img{
     width: 150px;
@@ -230,4 +231,43 @@ flex-shrink: 0;
 border-radius: 50px;
 background: #FFF;
 padding left: 336px;
+}
+.footer{
+    margin-top: 100px;
+    width: 1600px;
+height: 609px;
+flex-shrink: 0; 
+background: #070211; 
+}
+.footer-address{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+padding-top: 120px;
+padding-left: 140px;
+}
+.footer-1{
+    display: flex;
+}
+.footer1-head{
+    
+}
+.footer-head-1{
+    padding-top: 120px;
+    padding-left: 800px;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+.footer-head-section{
+    display: flex;
+}
+.image-phone{
+   
 }
