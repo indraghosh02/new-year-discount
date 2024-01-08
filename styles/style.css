@@ -1,10 +1,11 @@
+
 header{
     background-image: url(../images/Banner\ Image.png);
     background-repeat: off;
     background-color: gray;
     background-blend-mode: multiply;
     border-radius: 16px; 
-    
+
 
     width: 1320px;  
     height: 600px;
@@ -73,12 +74,32 @@ margin-top: 14px;
     background-image: url(../images/Vectorrr.png);
     width: 1320px;
     height: 600px;
-    margin:30px 120px;
+    margin:30px 100px;
     background-color: rgb(64, 62, 62);
     background-blend-mode: multiply;
     border-radius: 16PX;
     margin-bottom: 0px;
     
+}
+.park{
+    width: 1320px;
+height: 482px;
+background:pink;
+
+flex-shrink: 0; 
+border-radius: 16px;
+margin: 80px  100px ;
+}
+.park-text{
+    color: #070211;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize; 
+text-align: center;
+padding: 50px 385px;
 }
 .party{
     color: #FFF;
@@ -102,16 +123,14 @@ margin-bottom: 0PX;
     padding: 0px 552px 10px 126px;
 }
 .btn-1{
-  background-color: transparent;
-  color: #FFF;
-text-align: center;
-font-family: Merriweather ;font-size: 20px;
-font-style: normal;
-font-weight: 700;
-padding-left: 126PX;
-
-
-
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 126px;
 }
 .img-2024{
     display: flex;
@@ -135,8 +154,7 @@ mix-blend-mode: screen;
     margin:50px  100px;
 
     height: 1180px;
-    width: 1320px;  
-
+    width: 1320px; 
 
    }
    .gift{
@@ -203,6 +221,10 @@ height: 150px;
 flex-shrink: 0; 
 padding: 80px 585px 0px;
 }
+.subscribe-btn{
+    display: flex;
+
+}
 .subscribe{
     color: #070211;
 text-align: center;
@@ -213,6 +235,24 @@ font-weight: 900;
 line-height: normal;
 text-transform: capitalize; 
 padding: 0px 270px;
+}
+.sub-button{
+    width: 210px;
+height: 77px;
+flex-shrink: 0; 
+border-radius: 0px 50px 50px 0px;
+background: #F00; 
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize; 
+margin-top:31px;
+margin-left: -210px;
+
+
+
 }
 .email-des{
     color: rgba(7, 2, 17, 0.60);
@@ -225,12 +265,21 @@ line-height: 32px;
 padding: 0px 212px;
 }
 .input{
-    width: 648px;
-height: 72px;
-flex-shrink: 0; 
-border-radius: 50px;
-background: #FFF;
-padding left: 336px;
+      width: 648px;
+    height: 72px;
+    flex-shrink: 0; 
+    border-radius: 50px;
+    background: #FFF;
+    margin-left: 336px;
+    margin-top: 30px;
+    text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400; 
+text-align:left;
+
+
+
 }
 .footer{
     margin-top: 100px;
